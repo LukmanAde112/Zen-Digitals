@@ -19,11 +19,11 @@ const Footer = () => (
           <div className="flex space-x-3 pt-1">
             {[
               { href: 'https://github.com/LukmanAde112', icon: <Github size={18} /> },
-              { href: 'https://linkedin.com', icon: <Linkedin size={18} /> },
+              { href: 'https://www.linkedin.com/in/lukman-adesiyan-055777346', icon: <Linkedin size={18} /> },
               { href: 'https://x.com/Lukman6342361', icon: <X size={18} /> },
               { href: 'https://www.instagram.com/luqman_671?igsh=OHd6bTJvNnc2NXlp', icon: <Instagram size={18} /> },
               { href: 'https://www.facebook.com/share/17AQWY7yGC/', icon: <Facebook size={18} /> },
-              { href: 'mailto:lukmanadesiyan112@gmail.com', icon: <Mail size={18} /> },
+              { href: 'mailto:Zendigitals112@gmail.com', icon: <Mail size={18} /> },
             ].map((s, i) => (
               <a key={i} href={s.href} target="_blank" rel="noreferrer"
                 className="p-2.5 rounded-lg bg-white/5 border border-primary/10 text-textMain/50 hover:text-primary hover:border-primary/40 hover:shadow-glow transition-all duration-300">
