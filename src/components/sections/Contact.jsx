@@ -37,9 +37,9 @@ const Contact = () => {
 
               <div className="space-y-5">
                 {[
-                  { href: 'mailto:hello@zendigitals.com', icon: <Mail size={19} />, label: 'Email', value: 'lukmanadesiyan112@gmail.com' },
+                  { href: 'mailto:Zendigitals112@gmail.com icon: <Mail size={19} />, label: 'Email', value: 'Zendigitals112@gmail.com' },
                   { href: 'https://wa.me/2348142751296', icon: <MessageSquare size={19} />, label: 'WhatsApp', value: 'Start a chat' },
-                  { href: 'https://linkedin.com', icon: <Linkedin size={19} />, label: 'LinkedIn', value: 'Lukman Adesiyan' },
+                  { href: 'https://www.linkedin.com/in/lukman-adesiyan-055777346', icon: <Linkedin size={19} />, label: 'LinkedIn', value: 'Lukman Adesiyan' },
                 ].map((item, i) => (
                   <a key={i} href={item.href} target="_blank" rel="noreferrer"
                     className="flex items-center gap-4 group">
