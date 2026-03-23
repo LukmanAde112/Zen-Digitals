@@ -33,7 +33,7 @@ const Footer = () => (
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <h3 className="text-white font-semibold mb-5 text-sm uppercase tracking-wider">Quick Links</h3>
           <ul className="space-y-3">
             {['Home', 'About', 'Services', 'Projects', 'Contact'].map(item => (
@@ -55,7 +55,7 @@ const Footer = () => (
               <li key={item} className="text-textMain/50 hover:text-primary transition-colors cursor-pointer text-sm">{item}</li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </div>
 
       {/* Divider */}
@@ -63,10 +63,6 @@ const Footer = () => (
         <div className="absolute -top-px left-1/4 right-1/4 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
         <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0 text-xs text-textMain/30">
           <p>&copy; {new Date().getFullYear()} Zen Digitals by Lukman Adesiyan. All rights reserved.</p>
-          <div className="flex space-x-6">
-            <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-primary transition-colors">Terms</a>
-          </div>
         </div>
       </div>
     </div>
